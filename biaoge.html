@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格子</title>
+</head>
+<body>
+    <table>
+        <tr><td>用户名</td><td>衣服</td> <td>裤子</td> <td>项链</td> <td>戒指</td></tr>
+        <tr><td>宋抒影</td><td>2222</td> <td>8888</td> <td>9999</td> <td>4444</td></tr>
+        <tr><td>周星星</td><td>333</td> <td>555</td> <td>4444</td> <td>8888</td></tr>
+    </table>
+    <!-- align(left center right) 对齐 border 边框 cellpadding 内容物到单元格的距离 cellspacing 单元间的空隙 -->
+    <table align="center" border="1" cellpadding="5" cellspacing="0" width="400" height="400">
+        <tr><th>姓名</th><th>性别</th><th>电话</th></tr>
+        <tr><td>周星星</td><td>女</td><td>656556</td></tr>
+        <tr><td>松鼠</td><td>男</td><td>7777</td></tr>
+        <tr><td>草莓</td><td>女</td><td>27883</td></tr>
+    </table>
+    <table align="right" border="1" cellpadding="3" cellspacing="0">
+    <thead>
+        <tr>
+            <th>排名</th>
+            <th>关键词</th>
+            <th>趋势</th>
+            <th>进入搜索</th>
+            <th>最近七日</th>
+            <th>相关链接</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>鬼吹灯</td>
+            <td>↓</td>
+            <td>345</td>
+            <td>123</td>
+            <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>鬼吹灯</td>
+            <td>↓</td>
+            <td>345</td>
+            <td>123</td>
+            <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>鬼吹灯</td>
+            <td>↓</td>
+            <td>345</td>
+            <td>123</td>
+            <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>鬼吹灯</td>
+            <td>↓</td>
+            <td>345</td>
+            <td>123</td>
+            <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>鬼吹灯</td>
+            <td>↓</td>
+            <td>345</td>
+            <td>123</td>
+            <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>鬼吹灯</td>
+            <td>↓</td>
+            <td>345</td>
+            <td>123</td>
+            <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+        </tr>
+    </tbody>
+    </table>
+    <!-- rowspan 跨行合并 colspan 跨列合并 -->
+    <table align="left" border="1" cellpadding="5" cellspacing="0" width="400" height="400">
+        <thead>
+        <tr>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>电话</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>周星星</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td>男</td>
+            <td>7777</td>
+        </tr>
+        <tr>
+            <td>女</td>
+            <td>27883</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
